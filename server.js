@@ -134,6 +134,9 @@ app.post("/students", async (req, res) => {
  *       500:
  *         description: שגיאת שרת
  */
+app.get("/", (req, res) => {
+  res.send("Welcome to the Student Management API! 🎉");
+});
 
 app.get("/students", async (req, res) => {
     try {
