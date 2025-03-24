@@ -1,77 +1,94 @@
-📘 Student Management API
+<div dir="rtl">
+# 📚 Student Management API
 
-API לניהול תלמידים – מאפשר יצירה, עדכון, מחיקה וחיפוש תלמידים באמצעות RESTful API.
+This is a simple RESTful API built with Node.js, Express, and MongoDB for managing student records.
 
-📂 תוכן העניינים
+## 🌟 Features
 
-תכונות
+- Add new students
+- View all students with filters (by city and grade range)
+- Update student details by student number
+- Delete students by ID, name, or other filters
+- Interactive API documentation using Swagger
+- Environment variables support via `.env` file
+- Online deployment for easy testing
 
-טכנולוגיות
+---
 
-הרצה מקומית
+## 🚀 Live Demo (Online Access)
 
-קישורים שימושיים
+You can use the API online without needing to install anything locally.
 
-צילומי מסך
+- **Base URL**: [`https://student-management-api-d2hd.onrender.com`](https://student-management-api-d2hd.onrender.com)
+- **Swagger UI**: [`https://student-management-api-d2hd.onrender.com/api-docs`](https://student-management-api-d2hd.onrender.com/api-docs)
 
-✨ תכונות
+---
 
-יצירת תלמיד חדש עם מספר מזהה ייחודי (studentNumber)
+## 📥 Installation
 
-קבלת רשימת תלמידים עם סינון לפי עיר וציון
-
-עדכון תלמיד לפי מזהה
-
-מחיקה לפי מזהה או פרטים אישיים
-
-תיעוד מלא באמצעות Swagger
-
-🛠 טכנולוגיות
-
-Node.js + Express.js
-
-MongoDB + Mongoose
-
-Swagger UI
-
-Postman (לבדיקות)
-
-🚀 הפעלה מקומית (Local Setup)
-
-שכפול הריפוזיטורי:
-
+1. **Clone the repository**  
+```bash
 git clone https://github.com/your-username/student-management-api.git
 cd student-management-api
+```
 
-התקנת התלויות (Dependencies):
-
+2. **Install dependencies**  
+```bash
 npm install
+```
 
-יצירת קובץ .env:צרי קובץ .env בתיקיית הפרויקט עם התוכן הבא:
+3. **Configure environment variables**  
+Create a `.env` file in the root directory:
 
-MONGO_URI=your_mongo_connection_string
+```
+MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/studentDB
 PORT=3000
+```
 
-הרצת השרת:
-
+4. **Start the server**  
+```bash
 node server.js
+```
 
-בדיקת החיבור:לאחר שהשרת רץ, בקרי בכתובת:http://localhost:3000/api-docsכדי לצפות בתיעוד ה־Swagger של ה־API ✨
+The server will run on `http://localhost:3000` by default.
 
-🔗 קישורים שימושיים
+---
 
-🌐 פרויקט ב־Render: https://your-app-url.onrender.com
+## 🧪 Testing with Postman
 
-📄 תיעוד Swagger: https://your-app-url.onrender.com/api-docs
+You can test all API endpoints using [Postman](https://www.postman.com/).
 
-💻 ריפוזיטורי GitHub: https://github.com/your-username/student-management-api
+Example for adding a new student (POST request to `/students`):
 
-📸 צילומי מסך
+```json
+{
+  "name": "Shenhav",
+  "lastName": "Eliya",
+  "age": 25,
+  "city": "Jerusalem",
+  "grade": 100
+}
+```
 
-יצירת תלמיד ב־Postman
+Or simply open the [Swagger UI](https://student-management-api-d2hd.onrender.com/api-docs) and try requests directly from your browser.
 
-תיעוד API ב־Swagger
+---
 
-קונסולה עם לוגים
+## 🛠 Tech Stack
 
-בהצלחה! 🎓
+- Node.js
+- Express.js
+- MongoDB & Mongoose
+- Swagger (OpenAPI)
+- Postman (for testing)
+- Render (for deployment)
+
+---
+
+## 🙌 Developed by
+
+**Shenhav Eliya**  
+Full Stack Developer in the making 🚀
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/shenhaveliya) 💙
+</div>
