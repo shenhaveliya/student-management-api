@@ -19,8 +19,8 @@ This is a simple RESTful API built with Node.js, Express, and MongoDB for managi
 
 You can use the API online without needing to install anything locally.
 
-- **Base URL**: [`https://student-management-api-d2hd.onrender.com`](https://student-management-api-d2hd.onrender.com)
-- **Swagger UI**: [`https://student-management-api-d2hd.onrender.com/api-docs`](https://student-management-api-d2hd.onrender.com/api-docs)
+- **Base URL**: [https://student-management-api-qker.onrender.com/)
+- **Swagger UI**: [https://student-management-api-qker.onrender.com/api-docs/#/)
 
 ---
 
