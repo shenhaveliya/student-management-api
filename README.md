@@ -64,11 +64,11 @@ npm start
 ## תיעוד API
 
 ניתן לצפות בתיעוד המלא כאן:  
-[Swagger Docs](https://your-deployed-api-url/api-docs)
+[Swagger Docs](https://student-management-api-qker.onrender.com/api-docs/#/)
 </div>
 ## קישור לפרויקט בפרודקשן
 
-[Student Management API Live](https://your-deployed-api-url/)
+[Student Management API Live](https://student-management-api-qker.onrender.com/)
 
 ## תרומות
 
